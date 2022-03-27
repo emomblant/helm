@@ -48,9 +48,8 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: petclinic.local
-      http:
-        paths:
-          - path: /
+      paths:
+        - path: /
                         
   tls: []
   #  - secretName: chart-example-tls
