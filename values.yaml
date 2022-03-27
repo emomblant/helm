@@ -54,9 +54,7 @@ ingress:
           - backend:
               serviceName: petclinic
               servicePort: 8080
-            path: "/"
-      - /
-          
+            path: "/"       
             
   tls: []
   #  - secretName: chart-example-tls
