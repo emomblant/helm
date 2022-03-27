@@ -50,8 +50,8 @@ ingress:
   hosts:
     - host: petclinic.local
       paths:
-        - path: /
-          backend:
+      - /
+          
             
   tls: []
   #  - secretName: chart-example-tls
