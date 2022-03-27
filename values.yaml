@@ -49,7 +49,12 @@ ingress:
     #kubernetes.io/tls-acme: "true"
   hosts:
     - host: petclinic.local
-      paths:
+      http:
+        paths:
+          - backend:
+              serviceName: petclinic
+              servicePort: 8080
+            path: "/"
       - /
           
             
