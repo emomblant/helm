@@ -67,7 +67,7 @@ resources:
   #   cpu: 100m
   #   memory: 128Mi
   requests:
-    cpu: 50m
+    cpu: 300m
   #   memory: 128Mi
 
 autoscaling:
